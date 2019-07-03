@@ -1,0 +1,119 @@
+.applicationCont .apdexCharts{
+        position: relative;
+}
+.applicationCont .apdexCharts .colorBlock{
+    width: 12px;
+    height: 60px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background: #EF651F;
+}
+.applicationCont .apdexCharts .colorBlock li {
+    position: relative;
+    font-size: 12px;
+}
+.applicationCont .apdexCharts .colorBlock li span {
+    position: absolute;
+    left: -30px;
+    top: -10px;
+}
+.applicationCont .apdexCharts .colorBlock li:nth-child(2) span {
+    top: -4px;
+}
+.applicationCont .apdexCharts .colorBlock li:nth-child(3) span {
+    top: 0;
+}
+.applicationCont .apdexCharts .colorBlock li:last-child span {
+    top: 6px;
+}
+.applicationCont .apdexCharts .colorBlock li:first-child {
+    height: 8px;
+    background: #2AB06F;
+}
+.applicationCont .apdexCharts .colorBlock li:nth-child(2) {
+    height: 12px;
+    background: #6BCB8B;
+}
+.applicationCont .apdexCharts .colorBlock li:nth-child(3) {
+    height: 16px;
+    background: #FFE11C;
+}
+
+.applicationCont .applicationTitle{
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.applicationCont .fullAppCont .appTitle {
+    font-size: 22px;
+    margin-left: 22px;
+}
+
+.applicationCont .fullAppCont .appTitle span:last-child {
+    font-weight: bold;
+    display: block;
+    font-size: 18px;
+}
+
+.emotions {
+    display: flex;
+}
+.emotions .expre_box {
+    margin-bottom: 6px;
+}
+.emotions .expre_box span {
+    /* margin-right:20px;
+    margin-left: 30px; */
+    font-weight: bold;
+    font-size: 16px;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+}
+.emotions .expre_box .expression {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.fullAppCont .appPageItem {
+    margin-left: 0;
+}
+.pie_box{
+    display: flex;
+}
+.pie_box .pie_value{
+    margin-left: 20px;
+}
+.pie_box .pie_value h2{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.appTitle{
+    display: flex;
+    font-size: 22px;
+    margin-left: 16px;
+    padding-top: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.appTitle span:last-child {
+    font-size: 18px;
+    margin-right: 21px;
+    box-sizing: border-box;
+}
+
+.apdexEcharts{
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
